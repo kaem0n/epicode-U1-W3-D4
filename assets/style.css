@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    height: 100vh;
+    color: #1F1717;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CE5A67;
+    height: 15vh;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CE5A67;
+    height: 5vh;
+}
+
+main {
+    background-color: #F4BF96;
+    height: 80vh;
+    padding: 30px;
+    box-sizing:border-box;
+}
+
+#scoreboard {
+    width: 720px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+h2 {
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    font-size: 1.5em;
+}
+
+#table {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffe3c4;
+    width: 720px;
+    margin: 0 auto;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+    border-radius: 5px;
+    background-color: #FCF5ED;
+    font-weight: 600;
+}
+
+#numberPicker {
+    display: flex;
+    align-items: center;
+}
+
+#number {
+    font-size: 1.2em;
+}
+
+button {
+    font-family: 'Roboto Slab', serif;
+    color: #1F1717;
+    margin: 5px;
+    border: none;
+    font-size: 1em;
+    padding: 1px 6px 3px 6px;
+    border-radius: 5px;
+    background-color: #FCF5ED;
+}
+
+#players {
+    margin-top: 30px;
+}

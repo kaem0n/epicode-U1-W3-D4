@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gioco della Tombola - U1-W3-D4</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/reset.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Gioco della Tombola</h1>
+    </header>
+    <main>
+      <section id="scoreboard">
+        <h2>Tabellone</h2>
+        <div id="table">
+          <!-- <div class="cell">
+            <span>99</span>
+          </div> -->
+        </div>
+        <div id="numberPicker">
+          <button>Pesca un numero</button
+          ><span id="number">
+            <i class="fas fa-long-arrow-alt-right"></i> 99!</span
+          >
+        </div>
+      </section>
+      <section id="players">
+        <h3>Players:</h3>
+        <button>Aggiungi player</button>
+        <div class="player">
+          <h4>Giocatore (placeholder)</h4>
+          <button>Aggiungi una tabellina</button>
+          <div id="pTable"></div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <span>&copy;2023 kaem0n</span>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
