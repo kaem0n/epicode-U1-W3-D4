@@ -32,11 +32,11 @@ main {
     background-color: #F4BF96;
     height: 80vh;
     padding: 30px;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 #scoreboard {
-    width: 720px;
+    width: 540px;
     margin: 0 auto;
     text-align: left;
 }
@@ -52,13 +52,14 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     background-color: #ffe3c4;
-    width: 720px;
+    width: 540px;
     margin: 0 auto;
     padding: 3px;
     border-radius: 10px;
 }
 
 .cell {
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,12 +71,12 @@ h2 {
     font-weight: 600;
 }
 
-#numberPicker {
+#roulette {
     display: flex;
     align-items: center;
 }
 
-#number {
+#number, .fas {
     font-size: 1.2em;
 }
 
@@ -92,4 +93,8 @@ button {
 
 #players {
     margin-top: 30px;
+}
+
+.sorted {
+    border: 3px solid #CE5A67;
 }
