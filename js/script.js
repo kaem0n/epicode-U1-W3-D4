@@ -22,5 +22,5 @@ roulette.addEventListener('submit', function(e) {
     const x = Math.floor(Math.random() * 91)
     const cells = document.getElementsByClassName('cell')
     sortedNumber.innerText = x
-    cells[x-1].classList.add('sorted') 
+    cells[x-1].classList.add('sorted')
 })
