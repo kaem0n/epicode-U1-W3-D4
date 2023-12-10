@@ -28,15 +28,26 @@
           <span id="number"></span>
         </form>
       </section>
-      <!-- <section id="players">
-        <h3>Players:</h3>
-        <button>Aggiungi player</button>
-        <div class="player">
-          <h4>Giocatore (placeholder)</h4>
-          <button>Aggiungi una tabellina</button>
-          <div id="pTable"></div>
-        </div>
-      </section> -->
+      <section id="players">
+        <h2>Giocatori</h2>
+        <form id="playerGen">
+          <input
+            id="playerName"
+            placeholder="Scrivi il tuo nome"
+            maxlength="20"
+            minlength="5"
+            required
+          />
+          <select name="tableNum" id="tableNum">
+            <option id="null">n. tabelline</option>
+            <option id="one">1</option>
+            <option id="two">2</option>
+            <option id="three">3</option>
+          </select>
+          <button>Aggiungi giocatore</button>
+        </form>
+        <div id="playerContainer"></div>
+      </section>
     </main>
     <footer>
       <span>&copy;2023 kaem0n</span>
